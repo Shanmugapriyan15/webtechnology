@@ -1,0 +1,57 @@
+:root {
+    
+    --myfavcolor: aqua;
+    --myfont: "segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    --firstcolor: pink;
+
+}
+
+p{
+   
+    color: var(--myfavcolor);
+    font-family: var(--myfont);
+}
+
+.firtsbox {
+    height: 2cm;
+    width: 10cm;
+    background-color: var(--firstcolor);
+}
+
+.firstbutton {
+    background-color: var(--firstcolor);
+}
+
+.secondbox {
+    height: 2cm;
+    width: 10cm;
+    background-color: brown;
+}
+
+.secondbutton {
+    background-color: brown;
+}
+
+.thirdbox {
+    height: 2cm;
+    width: 10cm;
+    background-color: green;
+}
+
+.thirdbutton {
+    background-color: green;
+}
+
+.fourthbox {
+    height: 2cm;
+    width: 10cm;
+    background-color: olive;
+}
+
+.fourthbutton {
+    background-color: olive;
+}
+
+li:not(.third){
+    background-color: royalblue;
+}

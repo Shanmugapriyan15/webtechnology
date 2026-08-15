@@ -1,0 +1,32 @@
+style{
+    color: silver;
+}
+
+div h1{
+    background-color: lightblue;
+    color: black;
+}
+
+/* child selector */
+
+ol > li{
+    color: red;
+}
+
+ul >li{
+    color: green;
+}
+
+ol>ul>li{
+    color: blue;
+}
+
+h1+div{
+    color: orange;
+    background-color: deepskyblue;
+}
+
+h1~div{
+    color: lawngreen;
+    background-color: orangered;
+}

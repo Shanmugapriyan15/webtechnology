@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal means -- using * selector 
+        we can change the color and background color of all the tag in the html page */
+        * {
+            color:rgb(0, 0, 0);
+            background-color:rgb(180, 233, 179);
+        }
+        pre{
+            color:orange;
+            background-color:rgb(253, 230, 186);
+        }
+        /* hash (#) used for id selector and dot(.) used for class selector */
+        #firstheading{
+            color:rgb(48, 221, 213);
+        }
+        
+        /* class selector means-->used for multiple tag using same 
+        class name and we can change the color and background 
+        color of all the tag in the html page which have same class name 
+        /* .secheading{
+            color:rgb(49, 161, 189);
+        } 
+
+        .demo{
+            color:rgb(0, 42, 255);
+        } */
+
+        .amar{
+            color:rgb(0, 208, 255);
+        }
+
+        /* group selector means-->used multiple tag and id or class using "," */
+         .lastheading,
+        p{
+            color:rgb(218, 31, 71);
+        }
+        #para{
+            background-color:rgb(250, 250, 250);
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+        <h2><b>SELECTORS</b></h2>
+    </center>
+    <h1 id="firstheading">hi this is first heading</h1>
+    <h1 class="secheading demo amar">hii this is second heading</h1>
+    <h1 class="lastheading">hii this is third heading</h1>
+    <p id="para">
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, 
+        voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quisquam, voluptatum.
+    </p>
+    <pre>
+        Some sunsets never learn to fade,
+        They linger where our laughter stayed.
+        Time walks on with silent grace,
+        Yet leaves your shadow in its place.
+    </pre>
+</body>
+</html>

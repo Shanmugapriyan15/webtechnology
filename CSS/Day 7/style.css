@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+p {
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+#secheading {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+#secpara {
+    text-transform: uppercase;
+    text-shadow: 2px 20px 4px violet;
+    text-indent: 200px;
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    line-height: 100px;
+}

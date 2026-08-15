@@ -1,0 +1,35 @@
+h1 {
+    background: cyan;
+    background: linear-gradient(orange,lightblue,red);
+    background: linear-gradient(to left,orange,lightblue,red);
+    background: linear-gradient(to top right,orange,lightblue,red);
+    
+}
+
+.box {
+    height: 50vh;
+    width: 100%;
+    background: black;
+    background: linear-gradient(grey ,lightgreen,yellow);
+    background: linear-gradient(to top right,violet 20%,
+    olive 20%,brown );
+
+    background: linear-gradient(200deg , yellow, blue, lightgreen);
+
+    background: repeating-linear-gradient(red 20%, blue 40%);
+}
+
+.box2 {
+    height: 50vh;
+    width: 100%;
+    background: black;
+    background: radial-gradient(yellow, orange, lightblue);
+}
+
+.box3{
+    height: 50vh;
+    width: 100%;
+    background: black;
+    background: conic-gradient(lightcoral,lightblue,
+    lightgreen,yellow);    
+}
